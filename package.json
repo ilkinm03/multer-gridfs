@@ -1,0 +1,33 @@
+{
+  "name": "multer-gridfs",
+  "version": "1.0.0",
+  "description": "Simple app to upload files to MongoDB",
+  "main": "src/app.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilkinm03/multer-gridfs.git"
+  },
+  "scripts": {
+    "dev": "nodemon -w 'src/**' -e 'ts,yaml,json' --exec 'ts-node-transpile-only src/app.ts'"
+  },
+  "author": "Ilkin Mammadli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^6.4.4",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/gridfs-stream": "^0.5.36",
+    "@types/method-override": "^0.0.32",
+    "@types/node": "^18.0.3",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
